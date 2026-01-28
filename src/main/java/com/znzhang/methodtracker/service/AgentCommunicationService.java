@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.service;
+package com.znzhang.methodtracker.service;
 
 import com.intellij.notification.NotificationGroupManager;
 import com.intellij.notification.NotificationType;
@@ -10,8 +10,8 @@ import com.intellij.openapi.progress.ProgressManager;
 import com.intellij.openapi.progress.Task;
 import com.intellij.openapi.project.Project;
 import com.intellij.util.messages.Topic;
-import com.znzhang.timetracker.MySpaceSettings;
-import com.znzhang.timetracker.context.AgentDataContext;
+import com.znzhang.methodtracker.MySpaceSettings;
+import com.znzhang.methodtracker.context.AgentDataContext;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;

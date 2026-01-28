@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.action;
+package com.znzhang.methodtracker.action;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -7,8 +7,8 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.psi.*;
-import com.znzhang.timetracker.FlameGraphTabManager;
-import com.znzhang.timetracker.MySpaceSettings;
+import com.znzhang.methodtracker.FlameGraphTabManager;
+import com.znzhang.methodtracker.MySpaceSettings;
 import org.jetbrains.annotations.NotNull;
 
 

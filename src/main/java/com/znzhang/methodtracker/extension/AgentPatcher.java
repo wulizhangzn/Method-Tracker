@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.extension;
+package com.znzhang.methodtracker.extension;
 
 import com.intellij.execution.Executor;
 import com.intellij.execution.configurations.JavaParameters;
@@ -9,8 +9,8 @@ import com.intellij.execution.runners.JavaProgramPatcher;
 import com.intellij.ide.plugins.PluginManagerCore;
 import com.intellij.openapi.extensions.PluginId;
 import com.intellij.openapi.project.Project;
-import com.znzhang.timetracker.MySpaceSettings;
-import com.znzhang.timetracker.listener.RunExecutionListener;
+import com.znzhang.methodtracker.MySpaceSettings;
+import com.znzhang.methodtracker.listener.RunExecutionListener;
 
 import java.io.File;
 import java.util.List;
@@ -26,7 +26,7 @@ public class AgentPatcher extends JavaProgramPatcher {
         if (runProfile instanceof RunConfigurationBase) {
             project = ((RunConfigurationBase<?>) runProfile).getProject();
         }
-        PluginId pluginId = PluginId.getId("com.znzhang.time-tracker");
+        PluginId pluginId = PluginId.getId("com.znzhang.method-tracker");
         File pluginPath = Objects.requireNonNull(PluginManagerCore.getPlugin(pluginId)).getPluginPath().toFile();
         File agentJar = new File(pluginPath, "lib/timeWatch.jar");
         ParametersList vmParametersList = javaParameters.getVMParametersList();

@@ -1,4 +1,4 @@
-package com.znzhang.timetracker;
+package com.znzhang.methodtracker;
 
 
 import com.intellij.icons.AllIcons;
@@ -19,8 +19,8 @@ import com.intellij.ui.jcef.JBCefBrowserBase;
 import com.intellij.ui.jcef.JBCefJSQuery;
 import com.intellij.util.concurrency.AppExecutorUtil;
 import com.intellij.util.messages.MessageBusConnection;
-import com.znzhang.timetracker.context.AgentDataContext;
-import com.znzhang.timetracker.service.AgentCommunicationService;
+import com.znzhang.methodtracker.context.AgentDataContext;
+import com.znzhang.methodtracker.service.AgentCommunicationService;
 
 import java.io.IOException;
 import java.io.InputStream;

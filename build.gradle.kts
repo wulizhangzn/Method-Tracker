@@ -53,7 +53,7 @@ tasks {
 
     prepareSandbox {
         from("lib/timeWatch.jar") {
-            into("time-tracker/lib")
+            into("Method Tracker/lib")
         }
     }
 }

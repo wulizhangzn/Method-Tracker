@@ -1,4 +1,4 @@
-package com.znzhang.timetracker;
+package com.znzhang.methodtracker;
 
 import com.intellij.openapi.util.IconLoader;
 

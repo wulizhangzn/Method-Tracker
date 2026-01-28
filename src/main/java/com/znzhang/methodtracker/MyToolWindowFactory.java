@@ -1,11 +1,7 @@
-package com.znzhang.timetracker;
+package com.znzhang.methodtracker;
 
-import com.intellij.openapi.actionSystem.ActionManager;
-import com.intellij.openapi.actionSystem.ActionToolbar;
-import com.intellij.openapi.actionSystem.DefaultActionGroup;
 import com.intellij.openapi.project.DumbService;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.ui.SimpleToolWindowPanel;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.components.JBLabel;
@@ -13,9 +9,9 @@ import com.intellij.ui.content.Content;
 import com.intellij.ui.content.ContentManagerEvent;
 import com.intellij.ui.content.ContentManagerListener;
 import com.intellij.util.messages.MessageBusConnection;
-import com.znzhang.timetracker.action.ShowFlameGraphSettingsAction;
-import com.znzhang.timetracker.context.AgentDataContext;
-import com.znzhang.timetracker.service.AgentCommunicationService;
+import com.znzhang.methodtracker.action.ShowFlameGraphSettingsAction;
+import com.znzhang.methodtracker.context.AgentDataContext;
+import com.znzhang.methodtracker.service.AgentCommunicationService;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

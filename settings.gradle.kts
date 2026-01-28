@@ -1,1 +1,1 @@
-rootProject.name = "time-tracker"
+rootProject.name = "Method Tracker"

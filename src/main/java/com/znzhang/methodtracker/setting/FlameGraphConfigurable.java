@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.setting;
+package com.znzhang.methodtracker.setting;
 
 import com.intellij.openapi.options.SearchableConfigurable;
 import com.intellij.openapi.project.Project;
@@ -8,7 +8,7 @@ import com.intellij.ui.CollectionListModel;
 import com.intellij.ui.ToolbarDecorator;
 import com.intellij.ui.components.JBList;
 import com.intellij.util.ui.FormBuilder;
-import com.znzhang.timetracker.MySpaceSettings;
+import com.znzhang.methodtracker.MySpaceSettings;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -27,7 +27,7 @@ public class FlameGraphConfigurable implements SearchableConfigurable {
 
     @Override
     public @NotNull String getId() {
-        return "com.znzhang.timetracker.settings";
+        return "com.znzhang.methodtracker.settings";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.vo;
+package com.znzhang.methodtracker.vo;
 
 import java.util.ArrayList;
 import java.util.List;

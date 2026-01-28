@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.znzhang.time-tracker</id>
+    <id>com.znzhang.method-tracker</id>
     <name>Method Tracker</name>
     <vendor>znzhang</vendor>
     <description>
@@ -33,23 +33,23 @@
         <toolWindow id="Method Tracker"
                     anchor="bottom"
                     canCloseContents="true"
-                    factoryClass="com.znzhang.timetracker.MyToolWindowFactory"
-                    icon="com.znzhang.timetracker.FlameGraphIcons.ToolWindow"/>
+                    factoryClass="com.znzhang.methodtracker.MyToolWindowFactory"
+                    icon="com.znzhang.methodtracker.FlameGraphIcons.ToolWindow"/>
         <notificationGroup id="MySpaceMonitorGroup" displayType="BALLOON"/>
-        <java.programPatcher implementation="com.znzhang.timetracker.extension.AgentPatcher"/>
+        <java.programPatcher implementation="com.znzhang.methodtracker.extension.AgentPatcher"/>
         <projectConfigurable
-                instance="com.znzhang.timetracker.setting.FlameGraphConfigurable"
-                id="com.znzhang.timetracker.settings"
+                instance="com.znzhang.methodtracker.setting.FlameGraphConfigurable"
+                id="com.znzhang.methodtracker.settings"
                 displayName="Method Tracker"
                 nonDefaultProject="true"/>
     </extensions>
     <projectListeners>
         <listener topic="com.intellij.execution.ExecutionListener"
-                  class="com.znzhang.timetracker.listener.RunExecutionListener"/>
+                  class="com.znzhang.methodtracker.listener.RunExecutionListener"/>
     </projectListeners>
 
     <actions>
-        <action id="com.znzhang.timetracker.AddMonitor" class="com.znzhang.timetracker.action.AddMonitorAction"
+        <action id="com.znzhang.methodtracker.AddMonitor" class="com.znzhang.methodtracker.action.AddMonitorAction"
                 text="Add to Method Tracker">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>

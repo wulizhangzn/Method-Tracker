@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.action;
+package com.znzhang.methodtracker.action;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnAction;
@@ -18,7 +18,7 @@ public class ShowFlameGraphSettingsAction extends AnAction {
         Project project = e.getProject();
         if (project != null) {
             // 直接跳转到指定的 Configurable ID
-            ShowSettingsUtil.getInstance().showSettingsDialog(project, "com.znzhang.timetracker.settings");
+            ShowSettingsUtil.getInstance().showSettingsDialog(project, "com.znzhang.methodtracker.settings");
         }
     }
 }

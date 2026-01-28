@@ -1,4 +1,4 @@
-package com.znzhang.timetracker.listener;
+package com.znzhang.methodtracker.listener;
 
 import com.intellij.execution.ExecutionListener;
 import com.intellij.execution.configurations.RunProfile;
@@ -6,7 +6,7 @@ import com.intellij.execution.process.ProcessHandler;
 import com.intellij.execution.runners.ExecutionEnvironment;
 import com.intellij.openapi.project.Project;
 import com.intellij.util.concurrency.AppExecutorUtil;
-import com.znzhang.timetracker.service.AgentCommunicationService;
+import com.znzhang.methodtracker.service.AgentCommunicationService;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.TimeUnit;

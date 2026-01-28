@@ -1,4 +1,4 @@
-package com.znzhang.timetracker;
+package com.znzhang.methodtracker;
 
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.Service;
@@ -7,7 +7,7 @@ import com.intellij.openapi.components.Storage;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiClass;
 import com.intellij.psi.PsiMethod;
-import com.znzhang.timetracker.service.AgentCommunicationService;
+import com.znzhang.methodtracker.service.AgentCommunicationService;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
